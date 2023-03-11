@@ -1,4 +1,4 @@
-const GalleryBannerVidOrImg = require('../models/GalleryBannerVidOrImg.models')
+const GalleryBannerVidOrImg = require('../models/galleryBannerVidOrImg.models')
 //Find All
 module.exports.findAllBuda = (req, res) => {
     GalleryBannerVidOrImg.find()

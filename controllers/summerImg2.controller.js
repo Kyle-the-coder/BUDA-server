@@ -1,4 +1,4 @@
-const SummerImg2 = require('../models/SummerImg2.models')
+const SummerImg2 = require('../models/summerImg2.models')
 //Find All
 module.exports.findAllBuda = (req, res) => {
     SummerImg2.find()

@@ -1,4 +1,4 @@
-const SessionBannerVid = require('../models/SessionBannerVid.models')
+const SessionBannerVid = require('../models/sessionBannerVid.models')
 //Find All
 module.exports.findAllBuda = (req, res) => {
     SessionBannerVid.find()

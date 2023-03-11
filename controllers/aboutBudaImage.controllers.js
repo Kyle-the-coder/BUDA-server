@@ -1,4 +1,4 @@
-const AboutBudaImage = require('../models/AboutBudaImage.models')
+const AboutBudaImage = require('../models/aboutBudaImage.models')
 
 //Find All
 module.exports.findAllBuda = (req, res) => {

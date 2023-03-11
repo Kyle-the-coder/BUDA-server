@@ -1,4 +1,4 @@
-const RatesBannerVidOrImg = require('../models/RatesBannerVidOrImg.models')
+const RatesBannerVidOrImg = require('../models/ratesBannerVidOrImg.models')
 //Find All
 module.exports.findAllBuda = (req, res) => {
     RatesBannerVidOrImg.find()

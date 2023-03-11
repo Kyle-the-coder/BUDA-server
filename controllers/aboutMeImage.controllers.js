@@ -1,4 +1,4 @@
-const AboutMeImage = require('../models/AboutMeImage.models')
+const AboutMeImage = require('../models/aboutMeImage.models')
 
 module.exports.index = (req, res) => {
     res.json({ message: "hey from the controller" })

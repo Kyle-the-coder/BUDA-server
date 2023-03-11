@@ -1,4 +1,4 @@
-const AboutInfoBanner = require('../models/AboutInfoBannerImage.models')
+const AboutInfoBanner = require('../models/aboutInfoBannerImage.models')
 
 //Find All
 module.exports.findAllBuda = (req, res) => {

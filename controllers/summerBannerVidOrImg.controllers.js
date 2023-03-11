@@ -1,4 +1,4 @@
-const SummerBannerVidOrImg = require('../models/SummerBannerVidOrImg.models')
+const SummerBannerVidOrImg = require('../models/summerBannerVidOrImg.models')
 //Find All
 module.exports.findAllBuda = (req, res) => {
     SummerBannerVidOrImg.find()

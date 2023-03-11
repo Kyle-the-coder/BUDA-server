@@ -1,4 +1,4 @@
-const SessionImg2 = require('../models/SessionImg2.models')
+const SessionImg2 = require('../models/sessionImg2.models')
 //Find All
 module.exports.findAllBuda = (req, res) => {
     SessionImg2.find()
